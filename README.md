@@ -1,3 +1,4 @@
+# java-mvc-filemanager
 Resultat från analys
 
 <img width="469" alt="image" src="https://github.com/user-attachments/assets/04eb4318-eb3a-4dfc-a517-74db8c371501"> 
@@ -39,17 +40,6 @@ Sekvensdiagram för design
 Klassdiagram (design)
 
 <img width="558" alt="image" src="https://github.com/user-attachments/assets/db682dc0-4440-43ff-96d0-88da1c4080ff"> 
-
-
-
-
-
-
-
-
-
-
-
 
 
 

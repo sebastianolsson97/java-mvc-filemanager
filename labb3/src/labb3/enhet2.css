@@ -1,0 +1,49 @@
+@media (min-width: 415px) and (max-width: 1180px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+   html {
+    font-size: 18px;
+   } 
+
+   /* Layout för main och aside */
+   body {
+    display: flex; 
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 2%;
+
+   }
+
+   main {
+    width: 50%; 
+
+   }
+
+   aside {
+    display: block;
+    width: 30%;
+
+   }
+
+   aside img {
+    width: 100%;
+    height: auto; 
+    
+   }
+
+   .d-none {
+    display: none; 
+
+}
+
+   td {
+    width: 125px; 
+    height: 125px; 
+    font-size: 50px;
+
+   }
+}

@@ -1,0 +1,77 @@
+
+@media (min-width: 1181px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 22px;
+    }
+
+    /* Justera layout */
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 2%;
+    }
+
+    main {
+        width: 70%; 
+
+    }
+
+    aside {
+        display: block;
+        width: 300px; 
+
+    }
+
+    aside img {
+        width: 100%;
+        height: auto; 
+    }
+
+    .d-none {
+        display: none;
+    
+    }
+
+    .col {
+        width: 49%;
+        display: inline-block;
+        margin-right: 2%;
+    }
+
+    .col:last-child {
+        margin-right: 0; 
+    }
+
+    td {
+        width: 200px; 
+        height: 200px; 
+        font-size: 50px;
+    }
+
+    /* Hover-effekt för knappen */
+    #newGame {
+        display: inline-block;
+        padding: 0.8rem 1.5rem;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        transition: background 0.3s ease-in-out, transform 0.2s ease-in-out; 
+
+    }
+
+    #newGame:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+
+    }
+    
+}
